@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    color: black
+}
+
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+/* -------------------------------------------------------------------------- */
+/*                                  PAGE INDEX                                */
+/* -------------------------------------------------------------------------- */
+
+
+/* ------------------------------ MEDIA QUERIES ----------------------------- */
+@media only screen and (min-width: 991.98px){}
+
+
+/* ---------------------------------- HEADER ---------------------------------- */
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+
+    width: 10%;
+
+    padding-left: 0%;
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.portada {
+    width: 100%;
+}
+
+/* ------------------------------- SECTION ONE ------------------------------ */
+
+.section-one {
+    flex-direction: row-reverse;
+    justify-items: center;
+    display: grid;
+    justify-content: space-around;
+}
+
+.txt-abeja {
+    margin: 10px;
+    padding-bottom: 5%;
+}
+
+.bee-img {
+    width: 1250px;
+    padding-left: 600px;
+}
+
+.bee {
+    display: inline;
+}
+
+.beeline {
+    width: 70%;
+    padding-left: 20%;
+}
+
+.abejap {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------- SECTION TWO ------------------------------ */
+
+.section-two {
+    /*flex-direction: row-reverse;*/
+    justify-items: center;
+    display: grid;
+    justify-content: space-around;
+}
+
+.tangoline_img {
+    width: 1150px;
+    padding-right: 600px;
+}
+
+.txt-tango {
+    margin: 5px;
+    padding-bottom: 5%;
+
+}
+
+/*.tangoline {
+    width: 65%;
+    padding-left: 30%;
+
+}
+
+.tangop {
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+/* ------------------------------ SECTION THREE ----------------------------- */
+
+.section-three {
+
+    justify-items: center;
+    display: grid;
+    justify-content: space-around;
+}
+
+.oliva_img {
+    width: 1300px;
+    padding-left: 600px;
+}
+
+.txt-oliva {
+    margin: 10px;
+    padding-bottom: 10%;
+}
+
+.olivaline {
+    padding-left: 10%;
+}
+
+
+.olivap {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* --------------------------------- FOOTER --------------------------------- */
+
+.footer {
+    display: flex;
+    width: 100%;
+    /*background-color: black;*/
+    justify-content: space-between;
+    border-top: solid #565b61 1px;
+    padding-block: 1%;
+
+}
+
+
+.realizacion {
+    color: rgb(38, 40, 41);
+}
+
+.mail {
+    color: rgb(18, 18, 19);
+    text-align: end;
+    font-family: Rubik;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                             PAGE NOSOTRXS                                  */
+/* -------------------------------------------------------------------------- */
+
+.nosotrxs {
+    margin: 200px;
+
+}
+
+.nosotrxs div {
+    margin: 2rem;
+}
+
+.logo-nosotrxs {
+    width: 15%;
+    padding-right: 70%;
+}
+
+.span {
+
+    display: block;
+    padding: 0.5rem;
+
+}
+
+.salto-de-liena {
+
+    display: block;
+    padding: 0.5rem;
+
+}
+
+.img-pugliese {
+
+    width: 60%;
+}
+
+/*width: 500px;
+    padding-left: 500px;
+}
+
+.porque {
+    justify-content: center;
+}
+
+.espacio {
+    display: block;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  PAGE TIENDA                               */
+/* -------------------------------------------------------------------------- */
+
+
+/* --------------------------------- SECTION ONE-------------------------------- */
+
+
+
+.products {
+    display: grid;
+    height: auto;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+
+
+}
+
+.products div {
+    border: 2px solid white;
+    padding-top: 1rem;
+
+}
+
+.bee-bajo-tienda {
+    width: 350px;
+
+}
+
+.bee-cello-tienda {
+    width: 350px;
+}
+
+.bee-violin-tienda {
+    width: 350px;
+}
+
+/* ------------------------------- SECTION TWO ------------------------------ */
+.tango-products {
+    padding-left: 20%;
+
+}
+
+.tango-bajo-tienda {
+    width: 350px;
+}
+
+.tango-cello-tienda {
+    width: 350px;
+}
+
+.tango-violin-tienda {
+    width: 350px;
+}
+
+/* ------------------------------ SECTION THREE ----------------------------- */
+.oliva-tienda {
+    width: 350px;
+}
+
+.oliva-product {
+    padding-left: 20%;
+
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 PAGE DISTRIBUCION                          */
+/* -------------------------------------------------------------------------- */
+
+.logo-distribucion {
+    width: 15%;
+    padding-right: 70%;
+}
+
+.distribuidores {
+    margin: 10%;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   PAGE CONTACTO                            */
+/* -------------------------------------------------------------------------- */
+
+.logo-contacto {
+    width: 15%;
+    padding-right: 70%;
+}
+
+.body-contact {
+    background-color: rgba(131, 245, 253, 1);
+}
+
+.pugliese-fondo {
+    width: 1500px;
+    padding-left: 20%;
+
+}
